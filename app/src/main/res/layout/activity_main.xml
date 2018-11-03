@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    >
+    <ImageView
+        android:id="@+id/DevilImage"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="#DC143C"
+        android:textColor="#FFF"
+        android:drawableStart="@drawable/summon_face"
+        android:drawableLeft="@drawable/summon_face"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="summonDevil"
+        android:text="Summon Devil"/>
+</RelativeLayout>
