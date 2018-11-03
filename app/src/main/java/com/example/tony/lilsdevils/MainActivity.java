@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void summonDevil(View view){
-        int id = getResources().getIdentifier("summon_face", "drawable", getPackageName());
+        int id = getResources().getIdentifier("vampire", "drawable", getPackageName());
         ImageView devilImage = findViewById(R.id.DevilImage);
         devilImage.setImageResource(id);
     }
